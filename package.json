@@ -1,5 +1,5 @@
 {
-  "name": "component-ui",
+  "name": "@jackcheng/component-ui",
   "version": "0.1.0",
   "private": false,
   "description": "轻量级通用Vue UI组件",
