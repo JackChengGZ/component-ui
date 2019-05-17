@@ -1,29 +1,41 @@
-# component-ui
+# ComponentUI
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve  
-```
+> PC UI elements for **Vue 2.0**
 
-### Compiles and minifies for production
-```
-npm run build
+
+
+
+## Installation
+```shell
+npm i @jackcheng/component-ui -S
 ```
 
-### Run your tests
-```
-npm run test
+## Usage
+
+Import all components.
+
+```javascript
+import Vue from 'vue';
+import ComponentUI from '@jackcheng/component-ui'
+import '@jackcheng/component-ui/lib/ComponentUI.css'
+
+Vue.use(ComponentUI);
 ```
 
-### Lints and fixes files
-```
-npm run lint
+import specified component
+
+```javascript
+import Vue from 'vue';
+import Button from '@jackcheng/component-ui'
+import '@jackcheng/component-ui/lib/ComponentUI.css'
+
+Vue.use(Button);
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+
+
+
